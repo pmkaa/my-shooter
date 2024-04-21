@@ -8,7 +8,7 @@ display.set_caption("Maze")
 background = transform.scale(image.load("background.jpg"), (win_width, win_height))
 font = font.Font(None, 70)
 win = font.render('VICTORY!', True, (255, 215, 0))
-lose = font.render('DEFEAT!', False, (255, 215, 0))
+lose = font.render('LLOSE!', False, (255, 215, 0))
 
 class GameSprite(sprite.Sprite):
     def __init__(self, player_image, player_x, player_y, player_speed):
